@@ -32,4 +32,6 @@
     <string name="mod_version">HashOS version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
 </resources>
