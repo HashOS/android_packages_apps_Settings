@@ -143,6 +143,7 @@ import org.hash.hashtweaks.ButtonBrightnessSettings;
 import org.hash.hashtweaks.interfacesettings.LockscreenSettings;
 import org.hash.hashtweaks.interfacesettings.BarsSettings;
 import org.hash.hashtweaks.batterylight.BatteryLightSettings;
+import org.hash.hashtweaks.moresettings.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -276,6 +277,7 @@ public class SettingsGateway {
             LockscreenSettings.class.getName(),
             BarsSettings.class.getName(),
             BatteryLightSettings.class.getName(),
+            OmniJawsSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
