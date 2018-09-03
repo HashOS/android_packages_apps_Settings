@@ -167,5 +167,5 @@ public class Settings extends SettingsActivity {
 
     // hash additions start
     public static class HashDashboardActivity extends SettingsActivity {}
-
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 }
