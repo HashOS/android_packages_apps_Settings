@@ -187,6 +187,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
 
         controller.setLabel(getResources().getString(R.string.mod_version));
         controller.setSummary(SystemProperties.get(PROPERTY_HASH_VERSION));
+        controller.setIcon(getResources().getDrawable(R.drawable.hash_logo));
 
         controller.done(context, true /* rebindActions */);
     }
