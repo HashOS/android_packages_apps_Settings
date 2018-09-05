@@ -138,6 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import org.hash.hashtweaks.HashFragment;
+import org.hash.hashtweaks.ButtonSettings;
 
 public class SettingsGateway {
 
@@ -263,7 +264,10 @@ public class SettingsGateway {
             DirectoryAccessDetails.class.getName(),
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
+
+            // hash additions start
             HashFragment.class.getName(),
+            ButtonSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -302,6 +306,8 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.MyDeviceInfoActivity.class.getName(),
+
+            // Home page > Hash
             Settings.HashDashboardActivity.class.getName(),
     };
 }

@@ -3329,6 +3329,7 @@
 
         <!-- This is the longest AndroidManifest.xml ever. -->
 
+        <!-- hash additions start -->
         <activity android:name=".Settings$HashDashboardActivity"
                   android:label="@string/header_category_hash"
                   android:icon="@drawable/ic_homepage_hashtweaks"
