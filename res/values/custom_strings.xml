@@ -32,4 +32,8 @@
     <string name="mod_version">HashOS version</string>
     <string name="mod_version_default">Unknown</string>
 
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps...</string>
+
 </resources>
