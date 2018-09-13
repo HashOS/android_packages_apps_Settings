@@ -141,6 +141,7 @@ import org.hash.hashtweaks.HashFragment;
 import org.hash.hashtweaks.ButtonSettings;
 import org.hash.hashtweaks.ButtonBrightnessSettings;
 import org.hash.hashtweaks.interfacesettings.LockscreenSettings;
+import org.hash.hashtweaks.interfacesettings.BarsSettings;
 
 public class SettingsGateway {
 
@@ -272,6 +273,7 @@ public class SettingsGateway {
             ButtonSettings.class.getName(),
             ButtonBrightnessSettings.class.getName(),
             LockscreenSettings.class.getName(),
+            BarsSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
