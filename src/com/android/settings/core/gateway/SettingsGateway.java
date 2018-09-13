@@ -139,6 +139,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import org.hash.hashtweaks.HashFragment;
 import org.hash.hashtweaks.ButtonSettings;
+import org.hash.hashtweaks.ButtonBrightnessSettings;
+import org.hash.hashtweaks.interfacesettings.LockscreenSettings;
 
 public class SettingsGateway {
 
@@ -268,6 +270,8 @@ public class SettingsGateway {
             // hash additions start
             HashFragment.class.getName(),
             ButtonSettings.class.getName(),
+            ButtonBrightnessSettings.class.getName(),
+            LockscreenSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
