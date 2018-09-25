@@ -144,6 +144,7 @@ import org.hash.hashtweaks.interfacesettings.LockscreenSettings;
 import org.hash.hashtweaks.interfacesettings.BarsSettings;
 import org.hash.hashtweaks.batterylight.BatteryLightSettings;
 import org.hash.hashtweaks.moresettings.OmniJawsSettings;
+import org.hash.hashtweaks.GestureSettings;
 
 public class SettingsGateway {
 
@@ -278,6 +279,7 @@ public class SettingsGateway {
             BarsSettings.class.getName(),
             BatteryLightSettings.class.getName(),
             OmniJawsSettings.class.getName(),
+            GestureSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
