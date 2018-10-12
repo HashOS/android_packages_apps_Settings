@@ -53,13 +53,12 @@ import com.android.settings.Utils;
 import com.android.settings.applications.LayoutPreference;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.dashboard.SummaryLoader;
-import com.android.settings.display.BatteryPercentagePreferenceController;
+//import com.android.settings.display.BatteryPercentagePreferenceController;
 import com.android.settings.fuelgauge.anomaly.Anomaly;
 import com.android.settings.fuelgauge.anomaly.AnomalyDetectionPolicy;
 import com.android.settings.fuelgauge.batterytip.BatteryTipLoader;
 import com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController;
 import com.android.settings.fuelgauge.batterytip.tips.BatteryTip;
-import com.android.settings.display.BatteryImagePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -290,8 +289,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 KEY_BATTERY_TIP, (SettingsActivity) getActivity(), this /* fragment */, this /*
                 BatteryTipListener */);
         controllers.add(mBatteryTipPreferenceController);
-        controllers.add(new BatteryPercentagePreferenceController(context));
-        controllers.add(new BatteryImagePreferenceController(context));
+        //controllers.add(new BatteryPercentagePreferenceController(context));
         return controllers;
     }
 
