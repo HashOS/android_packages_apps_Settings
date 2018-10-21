@@ -140,6 +140,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import org.hash.hashtweaks.HashFragment;
 import org.hash.hashtweaks.ButtonSettings;
 import org.hash.hashtweaks.ButtonBrightnessSettings;
+import org.hash.hashtweaks.ButtonCustomizationSettings;
 import org.hash.hashtweaks.interfacesettings.LockscreenSettings;
 import org.hash.hashtweaks.interfacesettings.BarsSettings;
 import org.hash.hashtweaks.interfacesettings.StatusbarBatterySettings;
@@ -277,6 +278,7 @@ public class SettingsGateway {
             HashFragment.class.getName(),
             ButtonSettings.class.getName(),
             ButtonBrightnessSettings.class.getName(),
+            ButtonCustomizationSettings.class.getName(),
             LockscreenSettings.class.getName(),
             BarsSettings.class.getName(),
             StatusbarBatterySettings.class.getName(),
