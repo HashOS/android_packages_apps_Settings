@@ -144,6 +144,7 @@ import org.hash.hashtweaks.ButtonCustomizationSettings;
 import org.hash.hashtweaks.interfacesettings.LockscreenSettings;
 import org.hash.hashtweaks.interfacesettings.BarsSettings;
 import org.hash.hashtweaks.interfacesettings.StatusbarBatterySettings;
+import org.hash.hashtweaks.interfacesettings.StatusbarClockSettings;
 import org.hash.hashtweaks.batterylight.BatteryLightSettings;
 import org.hash.hashtweaks.moresettings.OmniJawsSettings;
 import org.hash.hashtweaks.GestureSettings;
@@ -279,6 +280,7 @@ public class SettingsGateway {
             ButtonSettings.class.getName(),
             ButtonBrightnessSettings.class.getName(),
             ButtonCustomizationSettings.class.getName(),
+            StatusbarClockSettings.class.getName(),
             LockscreenSettings.class.getName(),
             BarsSettings.class.getName(),
             StatusbarBatterySettings.class.getName(),
